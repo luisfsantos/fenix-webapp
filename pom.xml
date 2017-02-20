@@ -179,7 +179,7 @@
             <version>2.1.0</version>
         </dependency>
     </dependencies>
-
+    
     <build>
         <plugins>
             <plugin>
@@ -189,7 +189,6 @@
                 <configuration>
                     <path>/fenix</path>
                     <port>8080</port>
-                    <warSourceDirectory>../fenixedu-academic/src/main/webapp</warSourceDirectory>
                     <systemProperties>
                                               
                         <org.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING>
